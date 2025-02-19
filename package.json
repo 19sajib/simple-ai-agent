@@ -1,0 +1,38 @@
+{
+  "name": "todo-ai-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "openai": "tsx openai.ts",
+    "gemini": "tsx gemini.ts",
+    "groq": "tsx groq.ts",
+    "deepseek": "tsx deepseek.ts",
+    "build": "tsc",
+    "dev": "tsx watch index.ts",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "@types/pg": "^8.11.11",
+    "@types/readline-sync": "^1.4.8",
+    "drizzle-kit": "^0.30.2",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.38.4",
+    "openai": "^4.80.1",
+    "pg": "^8.13.1",
+    "readline-sync": "^1.4.10"
+  }
+}
