@@ -7,9 +7,7 @@
   "scripts": {
     "start": "tsx index.ts",
     "openai": "tsx openai.ts",
-    "gemini": "tsx gemini.ts",
     "groq": "tsx groq.ts",
-    "deepseek": "tsx deepseek.ts",
     "build": "tsc",
     "dev": "tsx watch index.ts",
     "generate": "drizzle-kit generate",
